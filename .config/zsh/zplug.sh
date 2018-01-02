@@ -11,7 +11,7 @@ if [ -z ${RELOAD} ]; then
     zplug 'zsh-users/zsh-history-substring-search'
     zplug 'zsh-users/zsh-autosuggestions'
     zplug 'zsh-users/zsh-completions', depth:1
-    zplug 'akarzim/zsh-docker-aliases'
+    # zplug 'akarzim/zsh-docker-aliases'
     zplug mafredri/zsh-async, from:github
     zplug sindresorhus/pure, use:pure.zsh, from:github, as:theme
 
